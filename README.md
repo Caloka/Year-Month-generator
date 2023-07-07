@@ -8,8 +8,8 @@
 ### Tomamos como exemplo o número **48**.
 ### Quero gerar 48 meses para trás a partir do mês atual:
 ~~~python
-from datetime import datetime
 def generator_month_year(size)->list:
+
  data_atual = datetime.now()
  year = data_atual.year
  mes = data_atual.month
@@ -21,9 +21,13 @@ def generator_month_year(size)->list:
          if len(year_month) < size:
             if (mes - cont) > 0:
                     var = mes - cont
-                    str=f'{year}-{var}'
-                    #display(str)
-                    year_month.append(str)
+                    check = str(var)
+                    if len(check) < 2:
+                     str_=f'{year}-0{var}'
+                    elif len(check) > 1:
+                       str_=f'{year}-{var}'
+                    #display(str_)
+                    year_month.append(str_)
             else:
                 mes = 12
                 cont = 0
