@@ -7,7 +7,7 @@ Portanto, quando se não tiver tais valores, é importante se ter uma forma de c
 
 Será utilizado somente a biblioteca 'datetime' para criação da função de gerador.
 
-Como parâmetro único, só será precio informar a quantidade de meses que será contabilizado.
+Como parâmetro único, só será preciso informar a quantidade de meses que será contabilizado.
 
 A função conta a partir do mês atual para trás conforme a quantiade de meses parametrizada.
 
