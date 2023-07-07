@@ -1,5 +1,5 @@
 # Year-Month-generator
-Gerador de array com o formato 'year-month'.
+### Gerador de array com o formato 'year-month'.
 
 Na área de ciência de dados, é muito importante se trabalhar com indexes temporais para facilitar o trabalho das análises exploratórias, além da geração de gráficos.
 
@@ -50,6 +50,9 @@ def generator_month_year(size)->list:
 
 print(generator_month_year(48))
 ~~~
-### Como output, será retornado:
+Como output, será retornado:
 ![image](https://github.com/Caloka/Year-Month-generator/assets/75040393/3ce9389d-7c32-4df3-95ae-e092dfae6177)
+
+E assim pode-se manipular o pandas para setar o index do seu dataframe com o array criado.
+
 
