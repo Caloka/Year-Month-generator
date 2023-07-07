@@ -1,7 +1,7 @@
 # Year-Month-generator
 Gerador de array com o formato 'year-month'.
 
-Na área de ciência de dados, é muito importante se trabalhar com indexes temporais para facilitar o trabalho das análises exploratórias.
+Na área de ciência de dados, é muito importante se trabalhar com indexes temporais para facilitar o trabalho das análises exploratórias, além da geração de gráficos.
 
 Portanto, quando se não tiver tais valores, é importante se ter uma forma de criá-los.
 
