@@ -16,6 +16,8 @@ Tomamos como exemplo o número **48**.
 Quero gerar 48 meses para trás a partir do mês atual:
 
 ~~~python
+from datetime import datetime
+
 def generator_month_year(size)->list:
 
  data_atual = datetime.now()
