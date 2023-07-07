@@ -57,6 +57,6 @@ Como output, será retornado:
 ![image](https://github.com/Caloka/Year-Month-generator/assets/75040393/432c80bb-c7a1-4a52-943a-27972f6a4c1e)
 
 
-E assim pode-se manipular o pandas para setar o index do seu dataframe com o array criado.
+E assim, pode-se declarar a biblioteca 'pandas' para transformar esse array em uma série timestamp e setá-lo como index.
 
 
