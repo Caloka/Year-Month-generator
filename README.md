@@ -1,12 +1,19 @@
 # Year-Month-generator
 Gerador de array com o formato 'year-month'.
-Na área de Data Science, é muito importante trabalhar com indexes temporais para facilitar o trabalho das análises exploratórias.
+Na área de ciência de dados, é muito importante se trabalhar com indexes temporais para facilitar o trabalho das análises exploratórias.
+
 Portanto, quando se não tiver tais valores, é importante se ter uma forma de criá-los.
+
 Será utilizado somente a biblioteca 'datetime' para criação da função de gerador.
+
 Como parâmetro único, só será precio informar a quantidade de meses que será contabilizado.
+
 A função conta a partir do mês atual para trás conforme a quantiade de meses parametrizada.
+
 Tomamos como exemplo o número **48**.
+
 Quero gerar 48 meses para trás a partir do mês atual:
+
 ~~~python
 def generator_month_year(size)->list:
 
