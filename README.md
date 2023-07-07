@@ -43,5 +43,4 @@ def generator_month_year(size)->list:
 print(generator_month_year(48))
 ~~~
 ### Como output, será retornado:
-
-![image](https://github.com/Caloka/Year-Month-generator/assets/75040393/3cbe7347-c25d-44e5-bbe4-51f401d37bf1)
+![image](https://github.com/Caloka/Year-Month-generator/assets/75040393/dd4d49e5-2436-46e3-ae34-35f5a8924e58)
