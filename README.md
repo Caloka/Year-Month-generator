@@ -5,7 +5,7 @@ Na área de ciência de dados, é muito importante se trabalhar com indexes temp
 
 Portanto, quando se não tiver tais valores, é importante haver uma forma de criá-los.
 
-Será utilizado somente a biblioteca 'datetime' para criação da função geradora.
+Será utilizado somente as bibliotecas 'datetime' e 'numpy' para criação da função geradora.
 
 Como parâmetro único, só será preciso informar a quantidade de meses que será contabilizado.
 
@@ -17,6 +17,7 @@ Quero gerar 48 meses para trás a partir do mês atual:
 
 ~~~python
 from datetime import datetime
+import numpy as np
 
 def generator_month_year(size)->list:
 
@@ -48,7 +49,7 @@ def generator_month_year(size)->list:
              break
     else:
         break
- return year_month
+ return np.array(year_month)
 
 print(generator_month_year(48))
 ~~~
