@@ -5,7 +5,7 @@ Na área de ciência de dados, é muito importante se trabalhar com indexes temp
 
 Portanto, quando se não tiver tais valores, é importante haver uma forma de criá-los.
 
-Será utilizado somente a biblioteca 'datetime' para criação da função de gerador.
+Será utilizado somente a biblioteca 'datetime' para criação da função geradora.
 
 Como parâmetro único, só será preciso informar a quantidade de meses que será contabilizado.
 
