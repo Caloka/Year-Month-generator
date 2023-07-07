@@ -3,7 +3,7 @@
 
 Na área de ciência de dados, é muito importante se trabalhar com indexes temporais para facilitar o trabalho das análises exploratórias, além da geração de gráficos.
 
-Portanto, quando se não tiver tais valores, é importante se ter uma forma de criá-los.
+Portanto, quando se não tiver tais valores, é importante haver uma forma de criá-los.
 
 Será utilizado somente a biblioteca 'datetime' para criação da função de gerador.
 
